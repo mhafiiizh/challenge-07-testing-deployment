@@ -4,6 +4,7 @@ const {
   InsufficientAccessError,
   RecordNotFoundError,
   WrongPasswordError,
+  EmailAlreadyTakenError,
 } = require("../errors");
 const { JWT_SIGNATURE_KEY } = require("../../config/application");
 
